@@ -14,7 +14,7 @@ $result = $mysqli->query($query);
 </head>
 <body>
 <div style="text-align: center">
-	<h1>Поиск книг по фильтрам</h1>
+	<h1>Библиотека</h1>
 	<form action="index.php" method="POST" accept-charset="UTF-8">
 		<div>
 			<input type="text" name="name" id="book" value="<?php if(isset($_POST['name'])) echo $_POST['name'];?>" placeholder="Название книги">
